@@ -1,0 +1,126 @@
+body {
+  background-color: #febb9e;
+  text-align: left;
+  color: #005b5c;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1rem;
+}
+.header {
+  margin: 10px;
+}
+.header h1 {
+  font-size: 2rem;
+}
+section {
+  border: 1px solid #83c4b8;
+  background-color: #b8ede5;
+  padding: 0 20px;
+  margin: 10px 0;
+}
+.main h2 {
+  font-size: 1.5rem;
+}
+.main h3 {
+  font-size: 1.2rem;
+}
+
+li {
+  list-style-type: square;
+}
+
+.footer {
+  margin: 10px;
+}
+
+.footer h2 {
+  margin-bottom: 5px;
+}
+.icons {
+  padding-left: 60px;
+}
+.icons a {
+  color: #005b5c;
+  font-size: 1.5rem;
+  margin-right: 10px;
+  transition: color 0.3s;
+}
+
+.icons a:hover {
+  color: #83c4b8;
+}
+/* Styling the toggle button */
+#toggleSkills,
+#toggleProjects,
+#toggleEdu,
+#toggleProfile {
+  background-color: #83c4b8;
+  color: #005b5c;
+  border: none;
+  padding: 0.8em 1.5em;
+  margin: 10px 0;
+  cursor: pointer;
+  font-size: 0.8rem;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  width: 100%;
+  max-width: 300px;
+}
+
+#toggleSkills:hover,
+#toggleProjects:hover,
+#toggleEdu:hover,
+#toggleProfile:hover {
+  background-color: #005b5c;
+  color: #ffffff;
+}
+
+ul,
+span {
+  list-style-type: square;
+  transition: opacity 0.5s ease;
+}
+
+.hidden {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  /* Mobile */
+  body {
+    font-size: 0.8rem;
+  }
+  .header h1 {
+    font-size: 1.6rem;
+  }
+  .main h2 {
+    font-size: 1.2rem;
+  }
+  .main h3 {
+    font-size: 0.9rem;
+  }
+}
+@media (min-width: 600px) {
+  /* larger screens */
+  #toggleSkills,
+  #toggleProjects,
+  #toggleEdu,
+  #toggleProfile {
+    font-size: 1.2rem;
+    padding: 1em 2em;
+  }
+}
+@media (max-width: 480px) {
+  /* Smaller screens */
+  body {
+    font-size: 0.7rem;
+  }
+  .header h1 {
+    font-size: 1.4rem;
+  }
+  .main h2 {
+    font-size: 1rem;
+  }
+  .main h3 {
+    font-size: 0.9rem;
+  }
+}
